@@ -26,7 +26,7 @@ sed -i -e 's/\*\*\*\*\*\*/'`cat password`'/g' ../openthesaurus/grails-app/conf/a
 
 cp -f i18n/* ../openthesaurus/grails-app/i18n/
 
-cp -f ../opentaal-openthesaurus/1804/mysql-connector-java-8.0.13.jar ../openthesaurus/lib/
+cp -f ../opentaal-openthesaurus/1804/*.jar ../openthesaurus/lib/.
 
 cp -f ../opentaal-artwork/png/logo-shape-trans-341x192.png ../openthesaurus/grails-app/assets/images/openthesaurus-logo.png
 cp -f ../opentaal-artwork/png/icon-shape-trans-200x200.png ../openthesaurus/grails-app/assets/images/favicon_200x200.png
